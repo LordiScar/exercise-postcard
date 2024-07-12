@@ -1,0 +1,93 @@
+p {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+	background: rgb(9, 1, 14);
+	position: relative;
+}
+
+h1 {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+img {
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+* {
+	min-height: 10px;
+}
+
+/* quizé experimentar centrar la Postcard, mi monitor es 1366x768,
+puede no verse correcto en monitores 1080p.*/
+
+#body2 {
+	position: relative;
+	height: 300px;
+	width: 100%;
+}
+.postcard {
+	position: absolute;
+	top: 45%;
+	left: 35%;
+	width: 400px;
+	height: auto;
+	background: white;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+.body-right {
+	padding-top: 15px;
+}
+
+input {
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid grey;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: darkslategray;
+	padding: 20px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.baskervville-sc-regular {
+	font-family: "Baskervville SC", serif;
+	font-weight: 400;
+	font-style: normal;
+}
